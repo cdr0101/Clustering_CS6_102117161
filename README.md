@@ -1,14 +1,14 @@
 # Clustering
 ## Comparitive performance study of different clustering algorithms using different pre-processing techniques with different numbers of clusters on different evaluation parameters
 ### Submitted by- CHELSI 3CS6 102117161    
-Dataset used:  
+### Dataset used:  
 Sales_Transactions_Dataset_Weekly Dataset consisting of 52 columns and 811 rows      
-Algorithms used:  
+### Algorithms used:  
 1. K-means Clustering  
 2. Hierarchial Clustering  
 3. K-means shift Clustering
   
-Pre-processing techniques used:  
+### Pre-processing techniques used:  
 1. No data preprocessing
 2. Normalisation
 3. Transformation
@@ -18,12 +18,12 @@ Pre-processing techniques used:
 
 For each algorithm, models are created using different pre-processing techniques and number of clusters- 3,4,5. The results are stored in form of a table & different graphs have been used for visualisation of the resuts from best models. Also, as seen in K-mean shift clustering the values obtained are 0 for all cases except with no data processing. This shows that this clustering algo isn't suitable for our dataset.  
 
-Best Models:  
+### Best Models:  
 For K-means Clustering: Using no data processing with 3 no of clusters  
 For Hierarchial Clustering: Using no data processing with 3 no of clusters  
 For K-means shift Clustering: Using no data preprocessing with 3/4/5 no of clusters    
 
-  Results:    
+### Results:    
   For K-means Clustering:     
 | Parameters        | No data preprocessing c=3 | No data preprocessing c=4 | No data preprocessing c=5 | Using Normalisation c=3 | Using Normalisation c=4 | Using Normalisation c=5 | Using Transform c=3 | Using Transform c=4 | Using Transform c=5 | Using PCA c=3 | Using PCA c=4 | Using PCA c=5 | Using N+T c=3 | Using N+T c=4 | Using N+T c=5 | Using N+T+PCA c=3 | Using N+T+PCA c=4 | Using N+T+PCA c=5 |
 |-------------------|---------------------------|----------------------------|---------------------------|-------------------------|-------------------------|-------------------------|---------------------|---------------------|---------------------|---------------|---------------|---------------|---------------|---------------|---------------|-------------------|-------------------|-------------------|
