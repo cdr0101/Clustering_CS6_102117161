@@ -7,7 +7,6 @@ Algorithms used:
 1. K-means Clustering  
 2. Hierarchial Clustering  
 3. K-means shift Clustering
-4. DBSCAN Clustering
   
 Pre-processing techniques used:  
 1. No data preprocessing
@@ -20,9 +19,9 @@ Pre-processing techniques used:
 For each algorithm, models are created using different pre-processing techniques and number of clusters- 3,4,5. The results are stored in form of a table & different graphs have been used for visualisation of the resuts from best models. Also, as seen in K-mean shift clustering the values obtained are 0 for all cases except with no data processing. This shows that this clustering algo isn't suitable for our dataset.  
 
 Best Models:  
-For K-means Clustering: Using Transformation with 4 no of clusters  
-For Hierarchial Clustering: Using Transformation & PCA with 4 no of clusters  
-For K-means shift Clustering: Using no data preprocessing with 4 no of clusters    
+For K-means Clustering: Using no data processing with 3 no of clusters  
+For Hierarchial Clustering: Using no data processing with 3 no of clusters  
+For K-means shift Clustering: Using no data preprocessing with 3/4/5 no of clusters    
 
   Results:    
   For K-means Clustering:     
